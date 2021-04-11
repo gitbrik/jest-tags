@@ -1,3 +1,3 @@
-const {run} = require('jest-labels');
+const {run} = require('jest-tags');
 
 run();
