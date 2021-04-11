@@ -1,8 +1,5 @@
 const {tags} = require('jest-tags');
 
-
-
-{
     tags("tag1").test('Just a test with tag1', () => {
         expect(true).toBe(true);
     });
@@ -18,4 +15,4 @@ const {tags} = require('jest-tags');
     tags("tag3").test('Just a test with tag3', () => {
         expect(true).toBe(true);
     });
-}
+
