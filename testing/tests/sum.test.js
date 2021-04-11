@@ -1,17 +1,21 @@
 const {tags} = require('jest-tags');
 
-tags("hoho2", "hoho12").test('main test', () => {
-    expect(3+4).toBe(7);
-});
 
-tags("hoho2").test('adds 1 + 2 to equal 3', () => {
-    expect(1 + 2).toBe(3);
-});
 
-tags("hoho12").test('werwerwer', () => {
-    expect(3+20).toBe(23);
-});
+{
+    tags("tag1").test('Just a test with tag1', () => {
+        expect(true).toBe(true);
+    });
 
-tags("hoho3").test('dsadefewl;', () => {
-    expect(3+20).toBe(23);
-});
+    tags("tag2").test('Just a test with tag2', () => {
+        expect(true).toBe(true);
+    });
+
+    tags("tag1", "tag2").test('Just a test with tag1 and tag2', () => {
+        expect(true).toBe(true);
+    });
+
+    tags("tag3").test('Just a test with tag3', () => {
+        expect(true).toBe(true);
+    });
+}
