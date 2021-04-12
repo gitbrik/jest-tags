@@ -42,7 +42,7 @@ jest-tags --tags '!X && !Y'
 ```
 Run tests without the `X` or `Y` tags
 ```bash
-jest-tags --tags '!X && !Y'
+jest-tags --tags '!X || !Y'
 ```
 Run tests with the `X` tag and without the `Y` tag
 ```bash
