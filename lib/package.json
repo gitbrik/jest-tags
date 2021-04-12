@@ -4,13 +4,13 @@
     "@username/jest-tags": "bin/run",
     "jest-tags": "bin/run"
   },
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.6",
+  "description": "Filter your tests using tags",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "gitbrik",
   "license": "MIT",
   "dependencies": {
     "jest": "^26.6.3",
